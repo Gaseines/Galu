@@ -1,0 +1,25 @@
+.container_enunciado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.container_enunciado h1{
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+.container_enunciado p{
+    
+    font-size: 1.5em;
+}
+
+.marcado_lavanda{
+    color: var(--Lavanda);
+}
+
+.marcado_amarelo{
+    color: var(--Amarelo);
+}

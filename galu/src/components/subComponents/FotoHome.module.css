@@ -1,0 +1,8 @@
+.container_foto{
+    background: linear-gradient(90deg, var(--OffWhite) 50%, var(--Lavanda) 50%);
+}
+
+.container_foto img{
+    width: 700px;
+    transform: translateY(4px);
+}
