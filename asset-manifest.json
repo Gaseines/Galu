@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Galu/static/css/main.d2f49d35.css",
-    "main.js": "/Galu/static/js/main.9e52628d.js",
+    "main.css": "/Galu/static/css/main.ba276708.css",
+    "main.js": "/Galu/static/js/main.59706c89.js",
     "static/js/453.d8cceebd.chunk.js": "/Galu/static/js/453.d8cceebd.chunk.js",
     "static/media/image_inicio.png": "/Galu/static/media/image_inicio.c71fe1512f920fef26e1.png",
     "index.html": "/Galu/index.html",
-    "main.d2f49d35.css.map": "/Galu/static/css/main.d2f49d35.css.map",
-    "main.9e52628d.js.map": "/Galu/static/js/main.9e52628d.js.map",
+    "main.ba276708.css.map": "/Galu/static/css/main.ba276708.css.map",
+    "main.59706c89.js.map": "/Galu/static/js/main.59706c89.js.map",
     "453.d8cceebd.chunk.js.map": "/Galu/static/js/453.d8cceebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f49d35.css",
-    "static/js/main.9e52628d.js"
+    "static/css/main.ba276708.css",
+    "static/js/main.59706c89.js"
   ]
 }
