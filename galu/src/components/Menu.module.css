@@ -22,7 +22,35 @@
     padding: 10px;
     border-radius: 20px;
 
+    position: relative;
+
 }
+
+.navegacao li span{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.418);
+    border-radius: 100%;
+
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+
+.navegacao li:hover span{
+    top: -65%;
+    opacity: 1;
+}
+
+.navegacao li span:hover{
+    background-color: red;
+}
+
 
 .navegacao li:hover{
     background-color: rgba(0, 0, 0, 0.418);
@@ -31,18 +59,3 @@
 
 }
 
-.navegacao button{
-    background-color: transparent;
-    border: none;
-    font-size: 2em;
-    color: var(--Amarelo);
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
-.navegacao button:hover{
-    background-color: rgba(0, 0, 0, 0.418);
-    cursor: pointer;
-    transition: 1s ease;
-}

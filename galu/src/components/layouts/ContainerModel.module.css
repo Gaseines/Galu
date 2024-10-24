@@ -1,0 +1,45 @@
+.container_model{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+
+}
+
+.model{
+    
+    width: 70vw;
+    height: 50vh;
+
+    background-color: var(--Lavanda);
+    border-radius: 10px;
+
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    animation: fadeIn 1s ease forwards;
+    
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

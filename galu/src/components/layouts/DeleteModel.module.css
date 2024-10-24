@@ -1,0 +1,28 @@
+.titulo{
+    padding: 50px;
+}
+
+
+.button{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    margin-top: 30px;
+}
+
+.button:hover{
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.button_delete{
+    background-color: var(--Vermelho);
+}
+
+.button_voltar{
+    background-color: var(--Amarelo);
+}

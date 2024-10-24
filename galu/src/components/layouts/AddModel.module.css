@@ -1,0 +1,46 @@
+.titulo{
+    padding: 50px;
+}
+
+.input{
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid var(--Amarelo);
+    text-align: center;
+}
+
+.input:focus{
+    border-color: var(--Amarelo);
+    outline: none;
+}
+
+.input, .button{
+    margin-top: 30px;
+}
+
+.button{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+
+}
+
+.button:hover{
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.button_add{
+    background-color: var(--Verde);
+}
+
+.button_cancel{
+    background-color: var(--Vermelho);
+}

@@ -4,7 +4,8 @@
   --Amarelo: #ece1ad;
   --Branco: #FFFFFF;
   --Preto: #000000;
-
+  --Verde: #78ce84;
+  --Vermelho: #ec8795;
 }
 
 *{
@@ -16,6 +17,7 @@
 body{
   background-color: var(--OffWhite);
   font-family: 'padrao', sans-serif;
+  
 }
 
 @font-face {
